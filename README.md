@@ -2,8 +2,7 @@
 This repository contains a demo application used to showcase integration of [DataEntry forms validation library](https://github.com/RobertoPrevato/DataEntry) with [Vue.js](https://vuejs.org).
 It also contains a project template for Vue.js applications using Browserify and Gulp, alternative to official templates.
 
-### Side note, something personal
-I personally don't like the magic of Hot Reload module for Vue.js during development, I don't think it dramatically improves development like its authors say: refreshing the page was never a problem to me and it reproduces exactly the same scenario I will see in production environment. I never met a single developer who complained about having to refresh the web browser page after changing JavaScript (only those who didn't know about "Disable Cache" feature of browsers). What should otherwise say programmers using languages that require compilation step, having to recompile the source code before running unit tests or the application? This is why I am using custom made boiler-plate code with Browserify and Gulp.
+The demo can be seen here: [https://robertoprevato.github.io/demos/dataentry-vuejs/index.html](https://robertoprevato.github.io/demos/dataentry-vuejs/index.html).
 
 ## Getting started
 Commands to setup development environment:
