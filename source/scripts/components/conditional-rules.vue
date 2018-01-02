@@ -3,7 +3,7 @@
     <section>
       <h1>{{t("voc.ConditionalRules")}}</h1>
       <DataEntryForm ref="form" :schema="schema" :onFormat="handleValueChange">
-        <div id="example-form" className="conditional-rules">
+        <div id="example-form" class="conditional-rules">
           <label for="light-side">Light side of the force:</label>
           <input id="light-side" type="radio" value="light" name="side" v-model="obj.side" /><br />
           <label for="dark-side">Dark side of the force:</label>
@@ -26,8 +26,9 @@
     <section>
       <h2>Please note:</h2>
       <ul>
-        <li>How formatting on blur works</li>
-        <li>How formatting on focus works</li>
+        <li>A first selection is required...</li>
+        <li>Depending on the selection, a certain input field is required;</li>
+        <li>Changing selection triggers the validation of dependent properties</li>
       </ul>
     </section>
   </div>
